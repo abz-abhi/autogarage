@@ -1,4 +1,5 @@
-import Infobox from "./components";
+import Infobox from "./components/headfooter";
+import Services from "./components/services";
 
 function App() {
   return (
@@ -99,13 +100,27 @@ function App() {
         </div>
       </div>
       {/* page 3 */}
-      <div className="bg-red-500">
+      <div className="bg-red-500 ">
         <div className="bg-green-500">
           <div className="flex gap-2 ">
             <img src="../public/separator-carsblue.svg" alt="" />
             <h1>WHAT WE OFFERS</h1>
           </div>
           <h1 className="text-[22px]">EXPLORE OUR SERVICES</h1>
+        </div>
+        <div className="flex gap-8 bg-pink-500 justify-center">
+          <Services
+            imageSrc="../public/pexels-artem-podrez-8985915 1.png"
+            title="OIL & FLUIDS SERVICES"
+          />
+          <Services
+            imageSrc="../public/pexels-artem-podrez-8985915 1 (1).png"
+            title="WHEEL BALANCING SERVICE"
+          />
+          <Services
+            imageSrc="../public/pexels-artem-podrez-8985915 1 (2).png"
+            title="OVERHAUL SERVICE"
+          />
         </div>
       </div>
     </div>
