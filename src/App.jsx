@@ -1,3 +1,5 @@
+import Infobox from "./components";
+
 function App() {
   return (
     <div className="h-screen w-screen bg-red-500">
@@ -24,7 +26,7 @@ function App() {
             </p>
           </div>
           <div className=" flex gap-8 mt-4">
-            <button className="bg-blue-500 text-white w-60">
+            <button className="bg-blue-700 text-white w-60">
               MAKE APPOINTMENT
             </button>
             <div className="flex items-center">
@@ -38,38 +40,22 @@ function App() {
         </div>
       </div>
       {/* head footer */}
-      <div className="bg-blue-600 w-screen h-[166px] flex items-center justify-around justify-between">
-        {/* box1 */}
-        <div className="bg-yellow-500 h-28 w-[30rem] flex">
-          <img src="../public/best-prices.png" alt="" />
-          <div className="pl-10">
-            <h1>BEST PRICES</h1>
-            <p>
-              All mechanical repairs and services <br /> are available at
-              affordable rates
-            </p>
-          </div>
-        </div>
-        {/* box2 */}
-        <div className="bg-red-500 h-28 w-[30rem]  flex">
-          <img className="h-24" src="../public/guarantee.png" alt="" />
-          <div className="pl-10">
-            <h1>100% GUARANTEE</h1>
-            <p>
-              All of our rapairs and services come with a guarantee period
-            </p>
-          </div>
-        </div>
-        {/* box3 */}
-        <div className="bg-yellow-500 h-28 w-[30rem]   flex">
-          <img className=""  src="../public/certified.png" alt="" />
-          <div className="pl-10">
-            <h1>CERTIFIED MECHANICS</h1>
-            <p>
-              All of our mechanics are qualified and are regularly trained
-            </p>
-          </div>
-        </div>
+      <div className="bg-blue-800 w-screen h-[166px] flex items-center justify-around justify-between">
+        <Infobox
+          imgSrc="../public/best-prices.png"
+          title="BEST PRICES"
+          description="All mechanical repairs and services are available at affordable rates"
+        />
+        <Infobox
+          imgSrc="../public/guarantee.png"
+          title="100% GUARANTEE"
+          description="All of our repairs and services come with a guarantee period"
+        />
+        <Infobox
+          imgSrc="../public/certified.png"
+          title="CERTIFIED MECHANICS"
+          description="All of our mechanics are qualified and are regularly trained"
+        />
       </div>
     </div>
   );
