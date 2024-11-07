@@ -1,8 +1,10 @@
 const Services = ({ imageSrc, title }) => {
   return (
-    <div className="bg-green-400 w-fit flex flex-col items-center">
-      <img src={imageSrc} alt="" />
-      <h1>{title}</h1>
+    <div className=" flex flex-col bg-white items-center">
+      <img className="w-[28rem]" src={imageSrc} alt="" />
+      <div className=" w-full h-16 flex justify-center items-center">
+        <h1 className=" text-[18px] text-blue-600">{title}</h1>
+      </div>
     </div>
   );
 };

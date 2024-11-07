@@ -63,8 +63,8 @@ function App() {
         </div>
       </div>
       {/* page 2 */}
-      <div className="h-screen w-full flex justify-center items-center">
-        <div className="bg w-[100rem] flex gap-40">
+      <div className="h-screen bg-[rgb(243,243,244)] w-full flex justify-center items-center">
+        <div className="bg w-[100rem] mt-44 flex gap-40">
           {/* left page */}
           <div>
             <img
@@ -100,27 +100,79 @@ function App() {
         </div>
       </div>
       {/* page 3 */}
-      <div className="bg-red-500 ">
-        <div className="bg-green-500">
-          <div className="flex gap-2 ">
-            <img src="../public/separator-carsblue.svg" alt="" />
-            <h1>WHAT WE OFFERS</h1>
+      <div className="bg-[rgb(243,243,244)] flex justify-center ">
+        <div className="flex flex-col items-center mt-36 ">
+          {/* head container */}
+          <div className=" mr-[61rem] ">
+            <div className="flex gap-2 ">
+              <img src="../public/separator-carsblue.svg" alt="" />
+              <h1 className="text-[18px] text-blue-600">WHAT WE OFFERS</h1>
+            </div>
+            <h1 className="text-[33px]">EXPLORE OUR SERVICES</h1>
           </div>
-          <h1 className="text-[22px]">EXPLORE OUR SERVICES</h1>
+          {/* service container */}
+          <div className="flex gap-8 w-fit mt-8 justify-center">
+            <Services
+              imageSrc="../public/pexels-artem-podrez-8985915 1.png"
+              title="OIL & FLUIDS SERVICES"
+            />
+            <Services
+              imageSrc="../public/pexels-artem-podrez-8985915 1 (1).png"
+              title="WHEEL BALANCING SERVICE"
+            />
+            <Services
+              imageSrc="../public/pexels-artem-podrez-8985915 1 (2).png"
+              title="OVERHAUL SERVICE"
+            />
+          </div>
+          <button className="text-blue-600 text-[18px] h-12 w-[20rem] mt-10 pt-2 border border-blue-600">
+            VIEW MORE SERVICE
+          </button>
         </div>
-        <div className="flex gap-8 bg-pink-500 justify-center">
-          <Services
-            imageSrc="../public/pexels-artem-podrez-8985915 1.png"
-            title="OIL & FLUIDS SERVICES"
-          />
-          <Services
-            imageSrc="../public/pexels-artem-podrez-8985915 1 (1).png"
-            title="WHEEL BALANCING SERVICE"
-          />
-          <Services
-            imageSrc="../public/pexels-artem-podrez-8985915 1 (2).png"
-            title="OVERHAUL SERVICE"
-          />
+      </div>
+      {/* page 4 */}
+      <div className="bg-red-500 flex h-screen w-full flex-col justify-center">
+        <div>
+          <div className="latest-container">
+            <div className="bg-yellow-400 flex j ">
+              <div className="bg-pink-500">
+                <h1 className="flex gap-2">
+                  <img src="../public/separator-carsblue.svg" alt="" />
+                  OUR LATEST WORK
+                </h1>
+
+                <h1>
+                  SUBARU WRX STI <br /> PERFORMANCE PARTS
+                </h1>
+                <p className="w-[30rem] bg-yellow-600">
+                  s simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard
+                </p>
+                <ul>
+                  <li className="flex gap-2">
+                    <img src="../public/disc.svg" alt="" />
+                    Make: Subaru Impreza
+                  </li>
+                  <li className="flex gap-2">
+                    <img src="../public/disc.svg" alt="" />
+                    Submodel: 4 doors 2.0L 5MT AWD (152 HP)
+                  </li>
+                  <li className="flex gap-2">
+                    <img src="../public/disc.svg" alt="" />
+                    Engine: 2000 cc turbo tipe EJ20.
+                  </li>
+                  <li className="flex gap-2">
+                    <img src="../public/disc.svg" alt="" />
+                    Color: Blue;
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="../public/pexels-cottonbro-studio-4489734 2.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
