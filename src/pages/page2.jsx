@@ -1,6 +1,6 @@
 function Page2() {
   return (
-    <div className="h-screen bg-[rgb(243,243,244)] max-w-[2000px] flex justify-center items-center">
+    <div className=" bg-[rgb(243,243,244)] max-w-[2000px] flex justify-center items-center">
       <div className="bg w-[100rem] mt-44 flex gap-40">
         {/* left page */}
         <div>

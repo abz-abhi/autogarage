@@ -8,7 +8,7 @@ import Page7 from "./pages/page7";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center ">
       <Page1 />
       <Page2 />
       <Page3 />
@@ -20,3 +20,5 @@ function App() {
   );
 }
 export default App;
+
+// bg-[rgb(243,243,244)]

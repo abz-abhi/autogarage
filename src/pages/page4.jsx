@@ -1,10 +1,10 @@
 function Page4() {
   return (
-    <div className="bg-[rgb(243,243,244)] max-w-[2000px] flex h-screen w-full flex-col justify-center">
+    <div className="bg-[rgb(243,243,244)] max-w-[2000px] flex   flex-col justify-center">
       <div className="pt-20">
-        <div className="flex justify-center items-start bg-red-500 relative">
+        <div className="flex justify-end items-start  relative">
           {/* latest work */}
-          <div className="bg-white h-fit relative z-10 w-[33rem]">
+          <div className="bg-white h-fit relative left-72 top-40 w-[33rem]">
             <div className="space-y-2 ml-10 mt-10 h-[25rem]">
               <h1 className="flex gap-2 text-[20px]">
                 <img src="../public/separator-carsblue.svg" alt="" />

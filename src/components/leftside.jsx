@@ -1,6 +1,6 @@
 function ContactBox() {
   return (
-    <div className="text-white space-y-6 w-[30rem] p-6 relative z-20">
+    <div className="text-white space-y-6  w-[30rem] pl-6">
       <div className="space-y-3">
         <h1 className="flex gap-4 text-[18px]">
           <img className="h-5" src="../public/separator-carswhite.svg" alt="" />
