@@ -1,6 +1,6 @@
 function Page4() {
   return (
-    <div className="bg-[rgb(243,243,244)] max-w-[2000px]  w-screen ">
+    <div className="bg-[rgb(243,243,244)] max-w-[2000px]  mt-10  ">
       <div className=" flex   flex-col justify-center">
         <div className="pt-20">
           <div className="flex justify-end items-start  relative">

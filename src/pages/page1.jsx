@@ -2,7 +2,7 @@ import Infobox from "../components/headfooter";
 
 function Page1() {
   return (
-    <div className="max-w-[2000px]">
+    <div className=" max-w-[2000px] ">
       {/* head baground image  */}
       <div className="relative">
         <img
