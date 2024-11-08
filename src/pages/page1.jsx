@@ -2,7 +2,7 @@ import Infobox from "../components/headfooter";
 
 function Page1() {
     return(
-        <div>
+        <div className="max-w-[2000px]">
           {/* head baground image  */}
           <div className="relative">
             <img
@@ -10,7 +10,7 @@ function Page1() {
               src="../public/pexels-artem-podrez-8986100 1.png"
               alt=""
             />
-            <div className="absolute top-0 left-0 right-0 h-full bg-gradient-to-r from-[rgba(0,0,0,0.7)] to-transparent"></div>
+            <div className="absolute top-0 left-0 right-0 h-full bg-gradient-to-r from-[rgba(248,0,0,0.7)] to-transparent"></div>
             {/* discription box container */}
             <div className="bg  absolute top-80 left-40 ">
               <div className="flex flex-col gap-6">

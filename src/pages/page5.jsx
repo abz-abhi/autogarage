@@ -3,7 +3,7 @@ import Reviews from "../components/reviews";
 function Page5() {
   return (
     <div>
-      <div className="space-y-4 flex pt-20 flex-col bg-[rgb(243,243,244)] justify-center items-center">
+      <div className="space-y-4 flex pt-20 flex-col max-w-[2000px] bg-[rgb(243,243,244)] justify-center items-center">
         <div className="flex flex-col space-y-1 mr-[38rem]">
           <h1 className="flex gap-4">
             <img src="../public/separator-carsblue.svg" alt="" />

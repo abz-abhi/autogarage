@@ -1,7 +1,7 @@
 import Services from "../components/services";
 function Page3() {
   return (
-    <div className="bg-[rgb(243,243,244)] flex justify-center ">
+    <div className="bg-[rgb(243,243,244)] max-w-[2000px] flex justify-center ">
       <div className="flex flex-col items-center mt-36 ">
         {/* head container */}
         <div className=" mr-[61rem] ">
