@@ -57,10 +57,10 @@ function Page7() {
                       {faq.question}
                       <img src="../public/mdi_chevron-up.png" alt="" />
                     </summary>
-                    <p className="mt-2 bg-gray-800 p-4 text-white">
+                    <p className="mt-2 relative bg-gray-800 p-4 text-white">
                       {faq.answer}
                     </p>
-                  </details>
+                  </details>  
                 </li>
               ))}
             </ul>
