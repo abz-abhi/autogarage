@@ -14,7 +14,7 @@ function Page6() {
             />
             <div className="absolute top-0 left-0 h-full w-full bg-blue-700 bg-opacity-30"></div>
           </div>
-          <div className="absolute flex gap-[40rem] left-10 top-1/2 transform -translate-y-1/2 z-20">
+          <div className="absolute flex gap-[40rem] left-28 top-1/2 transform -translate-y-1/2 z-20">
             <ContactBox />
             <HelpBox />
           </div>
