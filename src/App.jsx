@@ -9,16 +9,16 @@ import Page8 from "./pages/page8";
 
 function App() {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <div className="flex flex-col max-w-[2000px] bg-[rgb(243,243,244)]">
         <Page1 />
         <Page2 />
-        <Page3 />
-        <Page4 />
+        {/* <Page3 /> */}
+        {/* <Page4 />
         <Page5 />
         <Page6 />
         <Page7 />
-        <Page8 />
+        <Page8 /> */}
       </div>
     </div>
   );

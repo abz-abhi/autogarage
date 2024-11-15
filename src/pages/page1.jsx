@@ -1,11 +1,11 @@
-import Page1Background from "../components/page1head";
-import P1Footter from "../components/page1footer";
-import P1Content from "../components/page1content";
+import Page1Background from "../components/P1head";
+import P1Footter from "../components/P1footer";
+import P1Content from "../components/P1content";
 
 function Page1() {
   return (
     <div>
-      <div className="max-w-[2000px] bg-yellow-300 flex justify-center items-center  ">
+      <div className="max-w-[2000px] bg-violet-600 flex justify-center items-center  ">
         <Page1Background />
         <P1Content />
       </div>

@@ -1,7 +1,7 @@
 function P1Content(params) {
   return (
     <div
-      className="absolute bg-yellow-500 w-fit mr-[50rem] 
+      className="absolute  w-fit mr-[50rem] 
       xxs:space-y-1
       xs:space-y-1
       sm:space-y-3
@@ -15,7 +15,7 @@ function P1Content(params) {
       xs:mr-[0rem] 
       xxs:mr-[0rem]  "
     >
-      <div className="flex flex-col gap-6 bg-green-500 xxs:gap-2 xs:gap-2 sm:gap-2">
+      <div className="flex flex-col gap-6  xxs:gap-2 xs:gap-2 sm:gap-2">
         <h1
           className="text-white text-[60px] 
         2xl:text-[60px] 
@@ -53,7 +53,7 @@ function P1Content(params) {
         </p>
       </div>
       <div
-        className=" flex gap-8 bg-red-500
+        className=" flex gap-8
       2xl:flex 2xl:flex-row 
       xl:flex xl:flex-row 
       lg:flex lg:flex-row
