@@ -1,19 +1,29 @@
 import Services from "../components/services";
 function Page3() {
   return (
-    <div className="bg-[rgb(243,243,244)] max-w-[2000px] ">
+    <div className="bg-[rgb(243,243,240)] max-w-[2000px] ">
       <div className=" flex justify-center ">
-        <div className="flex flex-col items-center mt-36 ">
+        <div className="flex flex-col items-center mt-36  space-y-9">
           {/* head container */}
-          <div className=" mr-[61rem] ">
-            <div className="flex gap-2 ">
-              <img src="../public/separator-carsblue.svg" alt="" />
-              <h1 className="text-[18px] text-blue-600">WHAT WE OFFERS</h1>
+          <div className="w-full">
+            <div className=" ">
+              <div className="flex gap-2 ">
+                <img src="../public/separator-carsblue.svg" alt="" />
+                <h1 className="text-[18px] text-blue-600">WHAT WE OFFERS</h1>
+              </div>
+              <h1 className="text-[33px]">EXPLORE OUR SERVICES</h1>
             </div>
-            <h1 className="text-[33px]">EXPLORE OUR SERVICES</h1>
           </div>
           {/* service container */}
-          <div className="flex gap-8 w-fit mt-8 justify-center">
+
+          <div
+            className="flex flex-row gap-8 w-fit justify-center
+            xxs:flex xxs:flex-col
+          xs:flex xs:flex-col
+          sm:flex sm:flex-col
+          md:flex md:flex-row
+          "
+          >
             <Services
               imageSrc="../public/pexels-artem-podrez-8985915 1.png"
               title="OIL & FLUIDS SERVICES"
@@ -27,7 +37,7 @@ function Page3() {
               title="OVERHAUL SERVICE"
             />
           </div>
-          <button className="text-blue-600 text-[18px] h-12 w-[20rem] mt-10 pt-2 border border-blue-600">
+          <button className="text-blue-600 text-[18px] bg-white h-12 w-[20rem]  border border-blue-600">
             VIEW MORE SERVICE
           </button>
         </div>

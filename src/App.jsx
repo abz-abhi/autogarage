@@ -13,9 +13,9 @@ function App() {
       <div className="flex flex-col max-w-[2000px] bg-[rgb(243,243,244)]">
         <Page1 />
         <Page2 />
-        {/* <Page3 /> */}
-        {/* <Page4 />
-        <Page5 />
+        <Page3 />
+        {/* <Page4 /> */}
+        {/* <Page5 />
         <Page6 />
         <Page7 />
         <Page8 /> */}

@@ -9,8 +9,8 @@ function Page2() {
           lg:flex lg:flex-row lg:gap-y-36 lg:mt-40
           md:flex md:flex-row md:gap-36 md:mt-32
           sm:flex sm:flex-col sm:gap-5 sm:mt-5
-          xs:flex xs:flex-col xs:gap-5 xs:mt-2
-          xxs:flex xxs:flex-col xxs:gap-0 xxs:mt-0
+          xs:flex xs:flex-col xs:gap-5 xs:mt-4
+          xxs:flex xxs:flex-col xxs:gap-0 xxs:mt-4
           "
         >
           {/* left page */}
@@ -24,10 +24,10 @@ function Page2() {
           {/* right side */}
           <div
             className="space-y-20  
-          xxs:space-y-3
-          xs:space-y-3
-          sm:space-y-3
-          md:space-y-10
+            xxs:space-y-3
+            xs:space-y-3
+            sm:space-y-3
+            md:space-y-10
           "
           >
             <div className="space-y-2 max-w-[35rem] w-fit ">
