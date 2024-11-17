@@ -3,9 +3,9 @@ import ContactBox from "../components/leftside";
 
 function Page6() {
   return (
-    <div className="w-screen max-w-[2000px] ">
+    <div className=" max-w-[2000px] ">
       <div className="w-fit pt-[15rem]
-      xxs:pt-0
+      xxs:pt-5
       md:pt-[10rem]
       lg:pt-[15rem]
       ">
@@ -25,7 +25,7 @@ function Page6() {
         </div>
         <div
           className="relative  ml-[10rem] space-x-[35rem] w-fit flex flex-row justify-between 
-     xxs:flex xxs:flex-col xxs:space-x-0 xxs:mt-0 xxs:ml-0 
+     xxs:flex xxs:flex-col xxs:space-x-0 xxs:mt-0 xxs:ml-0 xxs:space-y-5 
      md:flex md:flex-row md:space-x-[15rem] md:pl-[22rem] md:bottom-[37rem]
      lg:flex lg:flex-row lg:pl-[17rem]
      xl:flex xl:flex-row xl:space-x-[35rem] xl:pl-[10rem]

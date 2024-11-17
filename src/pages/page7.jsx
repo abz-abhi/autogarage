@@ -35,9 +35,12 @@ function Page7() {
   ];
 
   return (
-    <div className="">
-      <div className="flex justify-center items-center pt-24">
-        <div className="w-fit">
+      <div className="flex justify-center items-center w-full  -mt-[20rem] max-w-[2000px]
+      xxs:mt-0
+      sm:mt-0
+      md:-mt-[20rem]
+      ">
+        <div>
           <div className="center-div  mb-6">
             <h1 className="flex gap-3 text-blue-600 text-lg">
               <img src="../public/separator-carsblue.svg" alt="" /> FAQS
@@ -45,11 +48,19 @@ function Page7() {
             <h1 className="text-[24px]">FREQUENTLY ASKED QUESTIONS</h1>
           </div>
 
-          <div className="text-white">
-            <ul className="grid grid-cols-2 max-w-[85rem] gap-x-4  grid-rows-3 ">
+          <div>
+            <ul
+              className="grid grid-cols-2 max-w-[85rem] gap-x-4  grid-rows-3
+            xxs:grid xxs:grid-cols-1
+            xl:grid xl:grid-cols-2
+            "
+            >
               {faqs.map((faq, index) => (
                 <li key={index} className="mb-4 flex  w-fit justify-center">
-                  <details className="bg-white border-l-4 border-blue-600 text-black justify-center items-center w-[42rem] h-24 cursor-pointer">
+                  <details className="bg-white border-l-4 border-blue-600 text-black justify-center items-center w-[42rem] h-24 cursor-pointer
+                  xxs:w-fit
+                  sm:w-[42rem]
+                  ">
                     <summary className="text-lg pt-8 pl-10 pr-5 flex justify-between">
                       {faq.question}
                       <img src="../public/mdi_chevron-up.png" alt="" />
@@ -64,7 +75,6 @@ function Page7() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
