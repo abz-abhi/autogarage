@@ -2,16 +2,24 @@ import Reviews from "../components/reviews";
 
 function Page5() {
   return (
-    <div className="bg-[rgb(243,243,244)] max-w-[2000px] mt-10   ">
-      <div className="space-y-4 flex mt-5 pt-20 flex-col justify-center items-center">
-        <div className="flex flex-col space-y-1 mr-[38rem]">
+    <div className="bg-[rgb(243,243,244)] mt-36 flex justify-center  
+    xxs:mt-5
+    lg:mt-20
+    xl:mt-36
+    ">
+      <div className="space-y-4 ">
+        <div className="flex flex-col space-y-1  w-full">
           <h1 className="flex gap-4">
             <img src="../public/separator-carsblue.svg" alt="" />
             TESTIMONIALS
           </h1>
           <h1 className="text-[24px]">WHAT OUR CLIENTS SAYS</h1>
         </div>
-        <div className="flex justify-around gap-5  w-[60rem]">
+        <div className="flex flex-row justify-around gap-5  max-w-[60rem]
+        xxs:flex xxs:flex-col
+        md:flex md:flex-col
+        lg:flex lg:flex-row
+        ">
           <Reviews
             rev="simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
             imgSrc="../public/face-1.png"

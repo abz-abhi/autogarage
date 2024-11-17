@@ -3,21 +3,37 @@ import ContactBox from "../components/leftside";
 
 function Page6() {
   return (
-    <div className="bg-[rgb(243,243,244)] max-w-[2000px] mt-10 flex flex-col items-start justify-center">
-      <div className="pt-20 flex  w-screen max-w-[1905px] justify-start items-start">
-        <div className="relative bg-blue-700 w-[95rem] h-[48rem] flex justify-end items-end">
-          <div className="relative w-[70rem] h-[40rem]">
+    <div className="w-screen max-w-[2000px] ">
+      <div className="w-fit pt-[15rem]
+      xxs:pt-0
+      md:pt-[10rem]
+      lg:pt-[15rem]
+      ">
+        <div
+          className=" relative bg-blue-700 h-[45rem] w-[90rem] max-h-[45rem] max-w-[90rem] flex justify-end items-end
+     xxs:h-fit xxs:w-fit
+     md:h-[45rem] md:w-[90rem]
+     "
+        >
+          <div className=" bg-bue-700 h-fit w-fit opacity-30 flex">
             <img
-              className="object-cover ml-28 h-full w-full filter brightness-75"
+              className="w-full h-full"
               src="../public/track tires.png"
               alt="Tire"
             />
-            <div className="absolute top-0 left-0 h-full w-full bg-blue-700 bg-opacity-30"></div>
           </div>
-          <div className="absolute flex gap-[40rem] left-28 top-1/2 transform -translate-y-1/2 z-20">
-            <ContactBox />
-            <HelpBox />
-          </div>
+        </div>
+        <div
+          className="relative  ml-[10rem] space-x-[35rem] w-fit flex flex-row justify-between 
+     xxs:flex xxs:flex-col xxs:space-x-0 xxs:mt-0 xxs:ml-0 
+     md:flex md:flex-row md:space-x-[15rem] md:pl-[22rem] md:bottom-[37rem]
+     lg:flex lg:flex-row lg:pl-[17rem]
+     xl:flex xl:flex-row xl:space-x-[35rem] xl:pl-[10rem]
+
+     "
+        >
+          <ContactBox />
+          <HelpBox />
         </div>
       </div>
     </div>

@@ -2,8 +2,12 @@ import Services from "../components/services";
 function Page3() {
   return (
     <div className="bg-[rgb(243,243,240)] max-w-[2000px] ">
-      <div className=" flex justify-center ">
-        <div className="flex flex-col items-center mt-36  space-y-9">
+      <div className=" flex justify-center mt-36
+      xxs:mt-5
+      lg:mt-36
+      ">
+        <div
+          className="flex flex-col items-center space-y-9 ">
           {/* head container */}
           <div className="w-full">
             <div className=" ">
