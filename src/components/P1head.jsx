@@ -7,7 +7,7 @@ function Page1Background() {
         <div className=" h-full w-full object-contain">
           <img
             className="object-contain h-full w-full"
-            src="../public/pexels-artem-podrez-8986100 1.png"
+            src="/pexels-artem-podrez-8986100 1.png"
             alt=""
           />
         </div>
