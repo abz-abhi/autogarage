@@ -12,7 +12,7 @@ function Page3() {
           <div className="w-full">
             <div className=" ">
               <div className="flex gap-2 ">
-                <img src="../public/separator-carsblue.svg" alt="" />
+                <img src="/separator-carsblue.svg" alt="" />
                 <h1 className="text-[18px] text-blue-600">WHAT WE OFFERS</h1>
               </div>
               <h1 className="text-[33px]">EXPLORE OUR SERVICES</h1>
@@ -29,15 +29,15 @@ function Page3() {
           "
           >
             <Services
-              imageSrc="../public/pexels-artem-podrez-8985915 1.png"
+              imageSrc="/pexels-artem-podrez-8985915 1.png"
               title="OIL & FLUIDS SERVICES"
             />
             <Services
-              imageSrc="../public/pexels-artem-podrez-8985915 1 (1).png"
+              imageSrc="/pexels-artem-podrez-8985915 1 (1).png"
               title="WHEEL BALANCING SERVICE"
             />
             <Services
-              imageSrc="../public/pexels-artem-podrez-8985915 1 (2).png"
+              imageSrc="/pexels-artem-podrez-8985915 1 (2).png"
               title="OVERHAUL SERVICE"
             />
           </div>

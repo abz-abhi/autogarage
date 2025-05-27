@@ -16,7 +16,7 @@ function P4note() {
         lg:text-[20px] lg:flex
         "
         >
-          <img src="../public/separator-carsblue.svg" alt="" />
+          <img src="/separator-carsblue.svg" alt="" />
           OUR LATEST WORK
         </h1>
         <h1
@@ -48,19 +48,19 @@ function P4note() {
         md:text-[12px]"
         >
           <li className="flex gap-2 ">
-            <img src="../public/disc.svg" alt="" />
+            <img src="/disc.svg" alt="" />
             Make: Subaru Impreza
           </li>
           <li className="flex gap-2">
-            <img src="../public/disc.svg" alt="" />
+            <img src="/disc.svg" alt="" />
             Submodel: 4 doors 2.0L 5MT AWD (152 HP)
           </li>
           <li className="flex gap-2">
-            <img src="../public/disc.svg" alt="" />
+            <img src="/disc.svg" alt="" />
             Engine: 2000 cc turbo type EJ20.
           </li>
           <li className="flex gap-2 ">
-            <img src="../public/disc.svg" alt="" />
+            <img src="/disc.svg" alt="" />
             Color: Blue
           </li>
         </ul>

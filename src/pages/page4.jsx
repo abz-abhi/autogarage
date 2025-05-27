@@ -16,7 +16,7 @@ function Page4() {
         <div className="max-h-[50rem] max-w-[85rem]">
           <img
             className="h-full w-full"
-            src="../public/pexels-cottonbro-studio-4489734 2.png"
+            src="/pexels-cottonbro-studio-4489734 2.png"
             alt=""
           />
         </div>

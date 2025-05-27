@@ -18,7 +18,7 @@ function Page6() {
           <div className=" bg-bue-700 h-fit w-fit opacity-30 flex">
             <img
               className="w-full h-full"
-              src="../public/track tires.png"
+              src="/track tires.png"
               alt="Tire"
             />
           </div>

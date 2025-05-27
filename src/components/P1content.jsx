@@ -76,7 +76,7 @@ function P1Content(params) {
           xs:h-5
           xxs:h-4
              "
-            src="../public/phone-call 1.png"
+            src="/phone-call 1.png"
             alt=""
           />
           <div className=" flex flex-col pl-2 w-56 -space-y-2 items-center text-white">

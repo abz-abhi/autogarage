@@ -2,7 +2,7 @@ const Reviews = ({ rev, imgSrc, person, job }) => {
   return (
     <div className="h-[280px] w-[300px] bg-white  flex justify-center items-center">
       <div className="h-[230px] w-[250px] bg-white space-y-4">
-        <img src="../../public/Vector.png" alt="" />
+        <img src="/Vector.png" alt="" />
         <p className="text-[12px]">{rev}</p>
         <div className="flex items-center pt-4">
           <img src={imgSrc} alt="" />

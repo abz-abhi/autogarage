@@ -24,7 +24,7 @@ function ContactBox() {
           md:h-5 md:mt-0
 
           "
-            src="../public/separator-carswhite.svg"
+            src="/separator-carswhite.svg"
             alt=""
           />
           MAKE APPOINTMENT
@@ -50,7 +50,7 @@ function ContactBox() {
         {/* Location */}
         <div className="flex">
           <div className="h-14 w-14 rounded-full flex justify-center items-center bg-[rgba(43,68,72,1)]">
-            <img src="../public/marker-car-service.png" alt="" />
+            <img src="/marker-car-service.png" alt="" />
           </div>
           <div className="ml-4 flex flex-col justify-center">
             <h1
@@ -76,7 +76,7 @@ function ContactBox() {
         {/* Email */}
         <div className="flex">
           <div className="h-14 w-14 rounded-full flex justify-center items-center bg-[rgba(43,68,72,1)]">
-            <img src="../public/envelope-car-service.png" alt="" />
+            <img src="/envelope-car-service.png" alt="" />
           </div>
           <div className="ml-4 flex flex-col justify-center">
             <h1
@@ -101,7 +101,7 @@ function ContactBox() {
         {/* Phone */}
         <div className="flex">
           <div className="h-14 w-14 rounded-full flex justify-center items-center bg-[rgba(43,68,72,1)]">
-            <img src="../public/phone-car-service.png" alt="" />
+            <img src="/phone-car-service.png" alt="" />
           </div>
           <div className="ml-4 flex flex-col justify-center">
             <h1

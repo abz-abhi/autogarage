@@ -2,7 +2,7 @@
 
 function Page1Background() {
   return (
-    <div className=" w-screen flex flex-col max-w-[2000px] bg-red-500 ">
+    <div className=" w-screen flex flex-col max-w-[2000px]">
       <div className="relative top-0 left-0 w-full h-full flex sm:min-w-[640px] md:min-w-[768px]  ">
         <div className=" h-full w-full object-contain">
           <img

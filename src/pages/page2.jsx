@@ -17,7 +17,7 @@ function Page2() {
           <div className=" ">
             <img
               className="max-h-[42rem]"
-              src="../public/pexels-artem-podrez-8985464 1.png"
+              src="/pexels-artem-podrez-8985464 1.png"
               alt=""
             />
           </div>
@@ -32,7 +32,7 @@ function Page2() {
           >
             <div className="space-y-2 max-w-[35rem] w-fit ">
               <div className="flex gap-4">
-                <img src="../public/separator-carsblue.svg" alt="" />
+                <img src="/separator-carsblue.svg" alt="" />
                 <h1 className="text-blue-600">WHO WE ARE</h1>
               </div>
               <div>
@@ -48,7 +48,7 @@ function Page2() {
             </div>
             <img
               className=" w-full  "
-              src="../public/pexels-artem-podrez-8986037 1.png"
+              src="/pexels-artem-podrez-8986037 1.png"
               alt=""
             />
           </div>

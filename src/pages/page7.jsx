@@ -43,7 +43,7 @@ function Page7() {
         <div>
           <div className="center-div  mb-6">
             <h1 className="flex gap-3 text-blue-600 text-lg">
-              <img src="../public/separator-carsblue.svg" alt="" /> FAQS
+              <img src="/separator-carsblue.svg" alt="" /> FAQS
             </h1>
             <h1 className="text-[24px]">FREQUENTLY ASKED QUESTIONS</h1>
           </div>
@@ -63,7 +63,7 @@ function Page7() {
                   ">
                     <summary className="text-lg pt-8 pl-10 pr-5 flex justify-between">
                       {faq.question}
-                      <img src="../public/mdi_chevron-up.png" alt="" />
+                      <img src="/mdi_chevron-up.png" alt="" />
                     </summary>
                     <p className="mt-2 relative rounded-md max-w-[40rem] ml-3 pl-4 bg-gray-800  text-white">
                       {faq.answer}
